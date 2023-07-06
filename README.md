@@ -8,7 +8,8 @@
 *Findings*
 - Currently, chDB(the embedded version of the clickhouse dbms) only supports Python 3.8+ on macOS(x86_64 and ARM64) and Linux
 - Both chDB and duckDB don't need full server installation. Its easier to get started just by importing the required module from python library
-- DuckDB can ingest data from a wide variety of formats. Running SQL queries is very straight forward just using the duckdb.sql command
+- Both ChDB & DuckDB can access data from a wide variety of formats - both on-disk and in-memory(Parquet, CSV, JSON etc)
+- Running SQL queries is very straight forward. DuckDB use 'duckdb.sql' command whereas ChDB use 'chdb.query' command to run SQL queries
 - Querying over millions of rows, I found duckDB was faster than chDB
 
 TPC-H reference: http://tpc.org/tpc_documents_current_versions/pdf/tpc-h_v3.0.0.pdf
