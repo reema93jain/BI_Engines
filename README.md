@@ -10,6 +10,6 @@
 - Both chDB and duckDB don't need full server installation. Its easier to get started just by importing the required module from python library
 - Both ChDB & DuckDB can access data from a wide variety of formats - both on-disk and in-memory(Parquet, CSV, JSON etc)
 - Running SQL queries is very straight forward. DuckDB use 'duckdb.sql' command whereas ChDB use 'chdb.query' command to run SQL queries
-- Querying over millions of rows, I found duckDB was faster than chDB. Moreover, ChDB fails to execute Query 21 ,hence, I excluded query 21 from the comparison analysis
+- Querying over millions of rows, I found duckDB was faster than chDB. Moreover, ChDB fails to execute Query 21 ,hence, I excluded it from the comparison analysis
 
 TPC-H reference: http://tpc.org/tpc_documents_current_versions/pdf/tpc-h_v3.0.0.pdf
